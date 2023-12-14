@@ -7,6 +7,9 @@
 // Execute `rustlings hint as_ref_mut` or use the `hint` watch subcommand for a
 // hint.
 
+use std::convert::AsMut;
+use std::convert::AsRef;
+
 // I AM NOT DONE
 
 // Obtain the number of bytes (not characters) in the given argument.
