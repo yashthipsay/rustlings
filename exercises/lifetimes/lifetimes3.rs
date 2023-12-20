@@ -13,9 +13,9 @@ struct Book<'a> {
 }
 
 fn main() {
-    let author = String::from("Douglas Hofstadter");
-    let title = String::from("Gödel, Escher, Bach");
-    let book;
-    {
-        let book = Book { author: &author, title: &title };
+    let name = String::from("Jill Smith");
+    let title = String::from("Fish Flying");
+    let book = Book { author: &name, title: &title };
+
+    println!("{} by {}", book.title, book.author);
 }
